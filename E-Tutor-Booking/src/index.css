@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Rancho&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100%;
+  /* margin-top: 250px !important; */
+  margin-left: 10px !important;
+}
+.swiper-pagination-bullets-most,
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: var(--swiper-pagination-bottom, -2px) !important;
+}
